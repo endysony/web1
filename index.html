@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="/images/icon.png" sizes="16x16" />
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link href="https://fonts.googleapis.com/css2?family=Imperial Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<script src="/action/play.js"></script>
+
+<!-- START: Navigation-->
+<div class="top">
+    <a href="#about">ABOUT</a>
+    <a href="#music">MUSIC</a>
+    <a href="#home">HOME</a>
+</div>
+<!-- END: Navigation-->
+<!-- Sony-->
+<div>
+    <p class="floating-text">Nguyễn Đặng Sony</p>
+</div>
+
+<div class="comment"></div>
+
+<!-- START: Quote-->
+<div class="quote">
+    <h1 style="color: white;text-align: center">
+        Even if this song is written with a broken heart,<br>
+        I know there is a place that belongs to me and you.</h1>
+</div>
+<!-- END: Quote-->
+
+<!-- START: Main Box-->
+
+<div class="image-box">
+    <img src="/images/anh.png" alt="Image">
+    <h1 class="p1">Because I Know I Love You</h1>
+    <h3 class="p3">Sony</h3>
+    <button id="toggle-button" class="audio-toggle">▶</button>
+    <audio class="audio" src="/audio/yuji.mp3" preload="auto"></audio>
+</div>
+
+<!-- END: Main Box-->
+
+
+
+<!-- START:First-->
+<div class="image-common a">
+    <img src="/images/anh4.png" alt="">
+    <button class="overlay-button audio-toggle" >▶</button>
+    <audio class="audio" src="/audio/sony.mp3" preload="auto"></audio>
+<div style="text-align: center;">
+    <span style="color: white; font-size: 17px;">Chiếc Ô Không Mở</span>
+</div>
+</div>
+<!-- END:First-->
+
+<!-- START:Second-->
+<div class="image-common b">
+    <img src="/images/anh3.png" alt="">
+    <button class="overlay-button audio-toggle" >▶</button>
+    <audio class="audio" src="/audio/ayaka.mp3" preload="auto"></audio>
+<div style="text-align: center;">
+    <span style="color: white; font-size: 17px">Anh Vẫn Mang Một Lời Hứa</span>
+</div>
+</div>
+<!-- END:Second-->
+
+
+<!-- START:Third-->
+<div class="image-common c">
+    <img src="/images/anh2.png" alt="">
+    <button class="overlay-button audio-toggle" >▶</button>
+    <audio class="audio" src="/audio/tung.mp3" preload="auto"></audio>
+    <div style="text-align: center;">
+    <span style="color: white; font-size: 17px">Khoảng Cách Phiến Gỗ</span>
+</div>
+</div>
+<!-- END:Third-->
+
+<!-- START:Because-->
+
+
+</body>
+</html>
